@@ -85,6 +85,34 @@ nav a:focus-visible {
   color: #1f2937;
   transform: translateY(-1px);
 }
+.hero{
+    display:flex;
+    flex-drection:column;  
+    align-items:center;
+    
+    
+}
+
+.hero-text{
+    min-width:700px;
+}
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+@media(max-width:768px){
+    .hero-buttons{
+        flex-direction:column;
+        text-align:center;
+    }
+    .btn, .btn2{
+        width:100%;
+        
+    }
+
+}
 
 .btn{
     display: inline-block;
