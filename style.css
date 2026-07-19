@@ -85,7 +85,13 @@ nav a:focus-visible {
   color: #1f2937;
   transform: translateY(-1px);
 }
-
+.hero{
+    display:flex;
+    flex-drection:column;  
+    align-items:center;
+    
+    
+}
 
 .hero-text{
     min-width:700px;
