@@ -93,22 +93,29 @@ nav a:focus-visible {
     
 }
 
-.hero-text{
-    min-width:300px;
-}
-.hero-buttons{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    flex-wrap:wrap;
-}
+
+
 @media(max-width:768px){
     .hero-buttons{
         flex-direction:column;
         text-align:center;
+        align-items:center;
+    }
+    .hero-text{
+    width:100%;
+    
+    }
+    .hero-buttons{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+    width:100%;
+    flex-wrap:wrap;
     }
     .btn, .btn2{
         width:100%;
+        margin-right:0;
+        box-sizing:border-box;
         
     }
 
